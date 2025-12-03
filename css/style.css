@@ -1,0 +1,43 @@
+span.name {
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+span.studentID {
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+span.sex {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+label.faculty {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 0 auto;
+    text-align: left;
+    
+}
+span.color {
+    display: inline-block;
+    width: 0px;
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+span.fruit {
+    display: inline-block;
+    width: 270px;
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+span.food {
+    display: inline-block;
+    width: 270px;
+    margin-bottom: 0 auto;
+    text-align: left;
+}
+input[type="cahckbox"] {
+    margin-top: 10px;
+    margin-left: 150px;
+}
