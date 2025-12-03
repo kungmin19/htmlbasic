@@ -3,39 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html basic</title>
+    <title>_index</title>
     <link rel="stylesheet" href="css/style.css">
+    <!--<span style="background-color: blue">Devdit</span>--> 
     <style>
-        h3{
-            color: green;
-        }
-        h1{
-            color: pink;
-        }
+    body{
+        text-align: center;
+    }   
+    table {
+        background-color: yellow;
+    }
+    span.title {
+        text-align: left;
+    }
+    span.studentID, .name, .sex, .color, .fruit, .food {
+        display: inline-block;
+        width: 120px;
+        text-align: left;
+        margin-top: 10px;
+    }
     </style>
 </head>
 <body>
-    <h1 style="color: blue;">Home page Heading 1</h1>
-    <h1 class="deading1">Home page Heading 1</h1>
-    <h2>Home page Heading 2</h2>
-    <h3>Home page Heading 3</h3>
-    <h3 id="Heading3">Home page Heading 3</h3>
-    <h4>Home page Heading 4</h4>
-    <h5><mark> Home page Heading 5</mark>   </h5>
-   <!--<h6>Home page Heading 6</h6>-->
-    <p>
-        <i><b>a</b><sub>2</sub> +b <sub>2</sub> = c <sub>2</sub>
-    </p>
-    <a href="https://new.ubru.ac.th/" target="_blank">
-    <img title="UBRU HOME PAGE" src="img/flower.png" alt="flower" width="64" height="64">
-    </a>
-    <img src="https://en.sportschosun.com/images/2025/10/23/son-heung-min-do-you-feel-gap-between-119207/son-heung-min-do-you-feel-gap-between-11920701.jpg" alt="" width="150" height="150">
-    <img src="https://th.portal-pokemon.com/play/resources/pokedex/img/pm/d0ee81f16175c97770192fb691fdda8da1f4f349.png" alt="" width="128" height="128">
-    <br>
-    
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit culpa, ea animi earum excepturi facere sapiente in veniam obcaecati deleniti odio nam nulla molestias. Dolores odit neque repellat obcaecati asperiores?</p>
-    <br>
-    
+    <h2>แบบสอบถาม</h2>
+            <hr>
+            <form style="background-color: yellowgreen; width: 400px; margin: auto; padding: 20px; border-radius: 10px;">
+        <table>
+            <span class="title">ผู้ตอบแบบสอบถาม</span><br>
+        <span class="studentID">ชื่อ-นามสกุล:</span>
+                <input type="text" Name="studentID" placeholder="กรุณากรอกชื่อ-นามสกุล"><br>
+        <span class="name">รหัสนึกศึกษา</span>
+                <input type="text" Name="name" placeholder="กรุณากรอกรหัสนักศึกษา"><br>
+        <span class="sex">เพศ</span>
+                <input type="radio" Name="gender" value="male"> ชาย
+                <input type="radio" Name="gender" value="female"> หญิง<br>
+        <label class="faculty">สังกัดคณะ</label>
+            <select>
+                <option value="">วิทยาศาสตร์</option>
+                <option value="">วิทยาการคอมพิวเตอร์</option>
+                <option value="">ครุศาสตร์</option>
+                <option value="">บริหารธุรกิจเเละการจัดการ</option>
+                <option value="">มนุษยศาสตร์</option>
+                <option value="">เทคโนโลยีอุตสาหกรรม</option>
+                <option value="">เกษตรศาสตร์</option>
+                <option value="">บริหารธุรกิจเเละการจัดการ</option>
+            </select><br>
+        <span   class="color">แม่สีที่ชอบ</span><br>
+                <input type="checkbox" Name="color">สีเเดง
+                <input type="checkbox" Name="color">สีขาว
+                <input type="checkbox" Name="color">สีฟ้า
+                <input type="checkbox" Name="color">สีส้ม<br>
+                <input type="checkbox" Name="color">สีดำ
+                <input type="checkbox" Name="color">สีเขียว
+                <input type="checkbox" Name="color">สีเหลือง<br>
+        <span class="fruit">ผลไม้ที่ชอบ</span><br>
+                <input type="checkbox" Name="fruit">มะม่วง
+                <input type="checkbox" Name="fruit">สัปปะรด
+                <input type="checkbox" Name="fruit">เชอรี่
+                <input type="checkbox" Name="fruit">มังคุด<br>
+                <input type="checkbox" Name="fruit">ลิ้นจี่
+                <input type="checkbox" Name="fruit">ทุเรียน
+                <input type="checkbox" Name="fruit">กล้วย
+                <input type="checkbox" Name="fruit">ส้ม<br>
+        <span class="food">อาหารที่ชอบ</span><br>
+                <input type="checkbox" Name="food">ส้มตำ
+                <input type="checkbox" Name="food">ต้มยำ
+                <input type="checkbox" Name="food">ผัดไทย
+                <input type="checkbox" Name="food">ข้าวผัด
+                <input type="checkbox" Name="food">ขนมจีน<br>
+                <input type="checkbox" Name="food">ต้มเล้ง
+                <input type="checkbox" Name="food">ผัดกระเพรา
+                <input type="checkbox" Name="food">ข้าวมันไก่
+                <input type="checkbox" Name="food">ขนมจีน<br>
+                 <input type="submit" value="submit">
+        </table>
+    </form>
+           
 </body>
 </html>
